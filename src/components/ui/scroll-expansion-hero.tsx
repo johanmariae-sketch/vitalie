@@ -289,7 +289,7 @@ const ScrollExpandMedia = ({
                 <div className='flex flex-col items-center text-center relative z-10 mt-4 transition-none'>
                   {date && (
                     <p
-                      className='text-xl md:text-2xl text-white/80 italic tracking-wide'
+                      className='text-xl md:text-2xl text-white italic tracking-wide drop-shadow-lg'
                       style={{ transform: `translateX(-${textTranslateX}vw)` }}
                     >
                       {date}
@@ -297,7 +297,7 @@ const ScrollExpandMedia = ({
                   )}
                   {scrollToExpand && (
                     <p
-                      className='text-white/60 font-light text-center text-sm tracking-[0.15em] uppercase'
+                      className='text-white/90 font-medium text-center text-base tracking-[0.15em] uppercase drop-shadow-lg'
                       style={{ transform: `translateX(${textTranslateX}vw)` }}
                     >
                       {scrollToExpand}

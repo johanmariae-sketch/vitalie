@@ -215,26 +215,18 @@ function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'bg-white/90 backdrop-blur-md shadow-lg'
-          : 'bg-transparent'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-white/90 backdrop-blur-md ${
+        scrolled ? 'shadow-lg' : 'shadow-sm'
       }`}
     >
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
-            <div className={`w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-500 ${
-              scrolled ? 'bg-[#2b5134]' : 'bg-white/20 backdrop-blur-sm'
-            }`}>
-              <span className={`text-xl font-bold transition-colors duration-500 ${
-                scrolled ? 'text-[#f0ece2]' : 'text-white'
-              }`}>V</span>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center bg-[#2b5134]">
+              <span className="text-xl font-bold text-[#f0ece2]">V</span>
             </div>
-            <span className={`text-2xl font-bold tracking-wide transition-colors duration-500 ${
-              scrolled ? 'text-[#2b5134]' : 'text-white'
-            }`}>
+            <span className="text-2xl font-bold tracking-wide text-[#2b5134]">
               Vitalie
             </span>
           </a>
@@ -245,9 +237,7 @@ function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className={`text-lg font-semibold transition-colors duration-300 hover:opacity-70 ${
-                  scrolled ? 'text-[#2d3d19]' : 'text-white/90'
-                }`}
+                className="text-lg font-semibold text-[#2d3d19] hover:opacity-70 transition-opacity duration-300"
               >
                 {link.label}
               </a>
@@ -256,11 +246,7 @@ function Navbar() {
               href="https://wa.me/18096924071"
               target="_blank"
               rel="noopener noreferrer"
-              className={`px-7 py-3.5 rounded-full text-lg font-bold transition-all duration-300 ${
-                scrolled
-                  ? 'bg-[#2b5134] text-[#f0ece2] hover:bg-[#2d3d19]'
-                  : 'bg-white/20 backdrop-blur-sm text-white hover:bg-white/30'
-              }`}
+              className="px-7 py-3.5 rounded-full text-lg font-bold bg-[#2b5134] text-[#f0ece2] hover:bg-[#2d3d19] transition-colors duration-300"
             >
               Reservar Cita
             </a>
@@ -269,9 +255,7 @@ function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`lg:hidden p-2 transition-colors ${
-              scrolled ? 'text-[#2b5134]' : 'text-white'
-            }`}
+            className="lg:hidden p-2 text-[#2b5134]"
           >
             {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
           </button>

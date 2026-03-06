@@ -41,7 +41,7 @@ const services = [
     icon: Stethoscope,
     title: 'Consultas Medicas',
     description:
-      'Evaluaciones personalizadas con nuestro equipo de especialistas en medicina estetica y funcional.',
+      'Evaluaciones personalizadas con nuestro equipo de especialistas en medicina estética y funcional.',
   },
   {
     icon: Sparkles,
@@ -65,13 +65,13 @@ const services = [
     icon: Snowflake,
     title: 'Crioterapia',
     description:
-      'Tratamiento con frio extremo para reducir inflamacion, dolor y rejuvenecer tejidos.',
+      'Tratamiento con frío extremo para reducir inflamación, dolor y rejuvenecer tejidos.',
   },
   {
     icon: HandHeart,
     title: 'Masajes & Spa',
     description:
-      'Relajacion profunda y bienestar con masajes terapeuticos y tratamientos de spa.',
+      'Relajación profunda y bienestar con masajes terapéuticos y tratamientos de spa.',
   },
 ];
 
@@ -86,7 +86,7 @@ const doctors = [
   },
   {
     name: 'Dr. Carlos Lopez Collado',
-    specialty: 'Medicina Estetica',
+    specialty: 'Medicina Estética',
     image:
       'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=400&auto=format&fit=crop',
     phone: '18294236902',
@@ -102,7 +102,7 @@ const doctors = [
   },
   {
     name: 'Dra. Arlin Polanco',
-    specialty: 'Medicina Estetica',
+    specialty: 'Medicina Estética',
     image:
       'https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?q=80&w=400&auto=format&fit=crop',
     phone: '18096924071',
@@ -110,7 +110,7 @@ const doctors = [
   },
   {
     name: 'Dra. Esmeralda Arredondo',
-    specialty: 'Dermatologia',
+    specialty: 'Dermatología',
     image:
       'https://images.unsplash.com/photo-1651008376811-b90baee60c1f?q=80&w=400&auto=format&fit=crop',
     phone: '18096924071',
@@ -120,7 +120,7 @@ const doctors = [
 
 const stats = [
   { icon: Users, value: '10,000+', label: 'Pacientes satisfechos' },
-  { icon: Award, value: '15+', label: 'Anos de experiencia' },
+  { icon: Award, value: '15+', label: 'Años de experiencia' },
   { icon: Star, value: '5', label: 'Especialistas certificados' },
   { icon: Calendar, value: '6', label: 'Dias a la semana' },
 ];
@@ -139,7 +139,7 @@ const videoTestimonials = [
     role: 'Testimonio Profesional',
     thumbnail: 'https://vitalierd.com/wp-content/uploads/drlopez.png',
     quote:
-      'En Vitalie combinamos ciencia y bienestar para ofrecer resultados reales. Cada paciente recibe un protocolo personalizado basado en sus necesidades unicas.',
+      'En Vitalie combinamos ciencia y bienestar para ofrecer resultados reales. Cada paciente recibe un protocolo personalizado basado en sus necesidades únicas.',
     rating: 5,
   },
   {
@@ -147,7 +147,7 @@ const videoTestimonials = [
     role: 'Paciente Vitalie',
     thumbnail: 'https://vitalierd.com/wp-content/uploads/jcp2.png',
     quote:
-      'Mi experiencia en Vitalie fue transformadora. El equipo medico es excepcional y los resultados hablan por si solos. Totalmente recomendado.',
+      'Mi experiencia en Vitalie fue transformadora. El equipo médico es excepcional y los resultados hablan por si solos. Totalmente recomendado.',
     rating: 5,
   },
 ];
@@ -157,35 +157,35 @@ const testimonials = [
     name: 'Maria G.',
     treatment: 'Tratamiento Facial',
     quote:
-      'Desde mi primera visita a Vitalie me senti en casa. El equipo es increiblemente profesional y los resultados superaron mis expectativas. Mi piel se ve y se siente renovada.',
+      'Desde mi primera visita a Vitalie me sentí en casa. El equipo es increíblemente profesional y los resultados superaron mis expectativas. Mi piel se ve y se siente renovada.',
     rating: 5,
   },
   {
     name: 'Carolina R.',
     treatment: 'Sueroterapia',
     quote:
-      'La sueroterapia cambio mi nivel de energia completamente. El Dr. Lopez explico todo el proceso y me senti segura en todo momento. Recomiendo Vitalie al 100%.',
+      'La sueroterapia cambió mi nivel de energía completamente. El Dr. López explicó todo el proceso y me sentí segura en todo momento. Recomiendo Vitalie al 100%.',
     rating: 5,
   },
   {
     name: 'Andrea P.',
     treatment: 'Crioterapia',
     quote:
-      'Despues de varias sesiones de crioterapia, la diferencia es notable. El ambiente del centro es hermoso y relajante. Quierete bonito es mas que un slogan, es una experiencia.',
+      'Después de varias sesiones de crioterapia, la diferencia es notable. El ambiente del centro es hermoso y relajante. Quiérete bonito es más que un slogan, es una experiencia.',
     rating: 5,
   },
   {
     name: 'Laura M.',
     treatment: 'Botox & Rellenos',
     quote:
-      'La Dra. Polanco tiene manos de angel. Resultados naturales, sin exagerar. Me veo fresca y descansada, justo lo que queria. El mejor centro estetico de Santo Domingo.',
+      'La Dra. Polanco tiene manos de ángel. Resultados naturales, sin exagerar. Me veo fresca y descansada, justo lo que quería. El mejor centro estético de Santo Domingo.',
     rating: 5,
   },
   {
     name: 'Sofia T.',
     treatment: 'Masaje & Spa',
     quote:
-      'Vitalie es mi escape semanal. Los masajes son terapeuticos de verdad y el equipo siempre esta atento a lo que necesitas. Un lugar donde realmente te cuidan.',
+      'Vitalie es mi escape semanal. Los masajes son terapéuticos de verdad y el equipo siempre está atento a lo que necesitas. Un lugar donde realmente te cuidan.',
     rating: 5,
   },
 ];
@@ -482,7 +482,7 @@ function TestimonialsSection() {
           className="text-center"
         >
           <p className="text-[#5a6b4a] mb-4">
-            Mira mas testimonios y contenido en nuestras redes
+            Mira más testimonios y contenido en nuestras redes
           </p>
           <a
             href="https://instagram.com/vitalierd"
@@ -491,7 +491,7 @@ function TestimonialsSection() {
             className="inline-flex items-center gap-3 px-6 py-3 border-2 border-[#2b5134] text-[#2b5134] rounded-full font-semibold hover:bg-[#2b5134] hover:text-[#f0ece2] transition-all duration-300"
           >
             <Instagram className="w-5 h-5" />
-            Siguenos en @vitalierd
+            Síguenos en @vitalierd
           </a>
         </motion.div>
       </div>
@@ -511,10 +511,11 @@ export default function Home() {
 
       {/* Hero with Scroll Expansion */}
       <ScrollExpandMedia
-        mediaType="image"
-        mediaSrc="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1280&auto=format&fit=crop"
+        mediaType="video"
+        mediaSrc="https://videos.pexels.com/video-files/3188080/3188080-uhd_2560_1440_30fps.mp4"
+        posterSrc="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1920&auto=format&fit=crop"
         bgImageSrc="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=1920&auto=format&fit=crop"
-        title="Quierete Bonito"
+        title="Quiérete Bonito"
         date="Tu Bienestar Tiene Lugar"
         scrollToExpand="Desliza para descubrir"
         textBlend
@@ -526,9 +527,9 @@ export default function Home() {
           </h2>
           <p className="text-lg md:text-xl text-[#5a6b4a] leading-relaxed mb-8">
             En Vitalie creemos que resaltar tu belleza comienza por quererte a ti mismo.
-            Nuestro centro de bienestar integra medicina estetica, tratamientos
+            Nuestro centro de bienestar integra medicina estética, tratamientos
             corporales y cuidado holístico para ayudarte a sentirte y verte
-            increible.
+            increíble.
           </p>
           <a
             href="#servicios"
@@ -559,8 +560,8 @@ export default function Home() {
               Tratamientos <em className="font-light italic">Especializados</em>
             </h2>
             <p className="text-[#5a6b4a] max-w-2xl mx-auto text-lg">
-              Cada tratamiento esta disenado para ofrecerte resultados visibles
-              con la mas alta calidad medica y humana.
+              Cada tratamiento está diseñado para ofrecerte resultados visibles
+              con la mas alta calidad médica y humana.
             </p>
           </motion.div>
 
@@ -633,17 +634,17 @@ export default function Home() {
                 El Centro
               </p>
               <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-6">
-                Un espacio disenado <em className="font-light italic">para tu bienestar</em>
+                Un espacio diseñado <em className="font-light italic">para tu bienestar</em>
               </h2>
               <p className="text-[#5a6b4a] text-lg leading-relaxed mb-6">
-                Vitalie es mas que un centro estetico. Somos un santuario donde
+                Vitalie es más que un centro estético. Somos un santuario donde
                 la ciencia y el cuidado se encuentran para crear experiencias de
                 bienestar personalizadas. Cada detalle de nuestro espacio esta
                 pensado para que te sientas en calma desde el momento en que
                 llegas.
               </p>
               <p className="text-[#5a6b4a] text-lg leading-relaxed mb-8">
-                Con tecnologia de ultima generacion y un equipo medico
+                Con tecnología de última generación y un equipo médico
                 certificado, ofrecemos tratamientos seguros y efectivos que
                 transforman tanto tu apariencia como tu confianza.
               </p>
@@ -675,7 +676,7 @@ export default function Home() {
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
                 <p className="text-3xl font-bold text-[#2b5134]">15+</p>
-                <p className="text-sm text-[#5a6b4a]">Anos cuidando<br />tu bienestar</p>
+                <p className="text-sm text-[#5a6b4a]">Años cuidando<br />tu bienestar</p>
               </div>
             </motion.div>
           </div>
@@ -799,7 +800,7 @@ export default function Home() {
                 </div>
                 <a
                   href={`https://wa.me/${doctor.phone}?text=${encodeURIComponent(
-                    `Hola! Me gustaria agendar una cita con ${doctor.name} en Vitalie. Quedo atenta a su disponibilidad.`
+                    `Hola! Me gustaría agendar una cita con ${doctor.name} en Vitalie. Quedo atenta a su disponibilidad.`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -836,10 +837,10 @@ export default function Home() {
             variants={fadeInUp}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-[#f0ece2] mb-6">
-              Quierete <em className="font-light italic">Bonito</em>
+              Quiérete <em className="font-light italic">Bonito</em>
             </h2>
             <p className="text-xl text-[#b1bdae] mb-8 max-w-2xl mx-auto">
-              Tu transformacion comienza con una decision. Agenda tu consulta y
+              Tu transformación comienza con una decisión. Agenda tu consulta y
               descubre lo que Vitalie puede hacer por ti.
             </p>
             <a
@@ -871,7 +872,7 @@ export default function Home() {
                 Contacto
               </p>
               <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-8">
-                <em className="font-light italic">Visitanos</em>
+                <em className="font-light italic">Visítanos</em>
               </h2>
 
               <div className="space-y-6">
@@ -880,13 +881,13 @@ export default function Home() {
                     <MapPin className="w-5 h-5 text-[#f0ece2]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-[#2d3d19] mb-1">Ubicacion</h3>
+                    <h3 className="font-bold text-[#2d3d19] mb-1">Ubicación</h3>
                     <p className="text-[#5a6b4a]">
                       Plaza Jenika 3er piso, Av. Gustavo Mejia Ricart
                       <br />
                       esq. Federico Geraldino
                       <br />
-                      Santo Domingo, Republica Dominicana
+                      Santo Domingo, República Dominicana
                     </p>
                   </div>
                 </div>
@@ -896,7 +897,7 @@ export default function Home() {
                     <Phone className="w-5 h-5 text-[#f0ece2]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-[#2d3d19] mb-1">Telefono</h3>
+                    <h3 className="font-bold text-[#2d3d19] mb-1">Teléfono</h3>
                     <a
                       href="tel:+18096924071"
                       className="text-[#5a6b4a] hover:text-[#2b5134] transition-colors"
@@ -954,7 +955,7 @@ export default function Home() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicacion Vitalie"
+                title="Ubicación Vitalie"
               />
             </motion.div>
           </div>

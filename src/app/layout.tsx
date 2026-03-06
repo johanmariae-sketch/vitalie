@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vitalie - Tu Bienestar, Nuestra Pasion",
-  description: "Descubre una nueva forma de vivir bien. Vitalie te acompana en tu camino hacia una vida mas saludable y plena.",
+  title: "Vitalie - Tu Bienestar, Nuestra Pasión",
+  description: "Descubre una nueva forma de vivir bien. Vitalie te acompaña en tu camino hacia una vida más saludable y plena.",
 };
 
 export default function RootLayout({

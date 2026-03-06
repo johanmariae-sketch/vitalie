@@ -28,6 +28,13 @@ import {
   ChevronRight,
 } from 'lucide-react';
 import { useState, useRef, useCallback } from 'react';
+import {
+  LeafDecoration,
+  StonesDecoration,
+  BambooDecoration,
+  WaterDropsDecoration,
+  LotusDecoration,
+} from '@/components/ui/spa-decorations';
 
 const services = [
   {
@@ -320,8 +327,11 @@ function TestimonialsSection() {
   }, []);
 
   return (
-    <section id="testimonios" className="py-20 md:py-28 bg-[#f0ece2]">
-      <div className="container mx-auto px-6 md:px-12">
+    <section id="testimonios" className="py-20 md:py-28 bg-[#f0ece2] relative overflow-hidden">
+      <LeafDecoration className="top-20 -right-8 w-[130px] md:w-[170px] rotate-45" flip />
+      <BambooDecoration className="-right-1 bottom-0 h-[300px]" flip />
+      <StonesDecoration className="-left-8 bottom-20 w-[130px] md:w-[160px]" />
+      <div className="container mx-auto px-6 md:px-12 relative z-10">
         <motion.div
           className="text-center mb-16"
           initial="hidden"
@@ -547,8 +557,10 @@ export default function Home() {
       </ScrollExpandMedia>
 
       {/* Services Section */}
-      <section id="servicios" className="py-20 md:py-28 bg-white">
-        <div className="container mx-auto px-6 md:px-12">
+      <section id="servicios" className="py-20 md:py-28 bg-white relative overflow-hidden">
+        <LeafDecoration className="top-10 -left-10 w-[150px] md:w-[200px]" />
+        <LeafDecoration className="bottom-10 -right-10 w-[120px] md:w-[180px]" flip />
+        <div className="container mx-auto px-6 md:px-12 relative z-10">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -622,8 +634,10 @@ export default function Home() {
       </section>
 
       {/* About / El Centro */}
-      <section id="centro" className="py-20 md:py-28 bg-[#f0ece2]">
-        <div className="container mx-auto px-6 md:px-12">
+      <section id="centro" className="py-20 md:py-28 bg-[#f0ece2] relative overflow-hidden">
+        <StonesDecoration className="-right-5 top-20 w-[140px] md:w-[180px]" />
+        <BambooDecoration className="-left-2 top-0 h-full" />
+        <div className="container mx-auto px-6 md:px-12 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial="hidden"
@@ -685,8 +699,10 @@ export default function Home() {
       </section>
 
       {/* Doctors Section */}
-      <section id="doctores" className="py-20 md:py-28 bg-white">
-        <div className="container mx-auto px-6 md:px-12">
+      <section id="doctores" className="py-20 md:py-28 bg-white relative overflow-hidden">
+        <LotusDecoration className="-right-5 top-16 w-[160px] md:w-[200px]" />
+        <WaterDropsDecoration className="-left-5 bottom-10 w-[120px] md:w-[160px]" />
+        <div className="container mx-auto px-6 md:px-12 relative z-10">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -856,8 +872,10 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contacto" className="py-20 md:py-28 bg-[#f0ece2]">
-        <div className="container mx-auto px-6 md:px-12">
+      <section id="contacto" className="py-20 md:py-28 bg-[#f0ece2] relative overflow-hidden">
+        <LotusDecoration className="-left-8 top-10 w-[150px] md:w-[200px]" />
+        <WaterDropsDecoration className="-right-5 bottom-16 w-[130px] md:w-[160px]" />
+        <div className="container mx-auto px-6 md:px-12 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <motion.div
               initial="hidden"

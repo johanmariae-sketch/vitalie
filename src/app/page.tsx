@@ -329,11 +329,11 @@ function TestimonialsSection() {
           viewport={{ once: true, margin: '-100px' }}
           variants={fadeInUp}
         >
-          <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+          <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
             Testimonios
           </p>
           <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-4">
-            Lo que dicen nuestros pacientes
+            Lo que dicen <em className="font-light italic">nuestros pacientes</em>
           </h2>
           <p className="text-[#5a6b4a] max-w-2xl mx-auto text-lg">
             La confianza de nuestros pacientes es nuestro mayor logro.
@@ -528,7 +528,7 @@ export default function Home() {
         {/* Intro after hero expand */}
         <div className="max-w-4xl mx-auto text-center mb-8">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-[#2b5134]">
-            Tu belleza interior, reflejada por fuera
+            Tu belleza interior, <em className="font-light italic">reflejada por fuera</em>
           </h2>
           <p className="text-lg md:text-xl text-[#5a6b4a] leading-relaxed mb-8">
             En Vitalie creemos que resaltar tu belleza comienza por quererte a ti mismo.
@@ -556,11 +556,11 @@ export default function Home() {
             viewport={{ once: true, margin: '-100px' }}
             variants={fadeInUp}
           >
-            <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
               Nuestros Servicios
             </p>
             <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-4">
-              Tratamientos Especializados
+              Tratamientos <em className="font-light italic">Especializados</em>
             </h2>
             <p className="text-[#5a6b4a] max-w-2xl mx-auto text-lg">
               Cada tratamiento esta disenado para ofrecerte resultados visibles
@@ -631,11 +631,11 @@ export default function Home() {
               viewport={{ once: true, margin: '-100px' }}
               variants={fadeInUp}
             >
-              <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+              <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
                 El Centro
               </p>
               <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-6">
-                Un espacio disenado para tu bienestar
+                Un espacio disenado <em className="font-light italic">para tu bienestar</em>
               </h2>
               <p className="text-[#5a6b4a] text-lg leading-relaxed mb-6">
                 Vitalie es mas que un centro estetico. Somos un santuario donde
@@ -694,11 +694,11 @@ export default function Home() {
             viewport={{ once: true, margin: '-100px' }}
             variants={fadeInUp}
           >
-            <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
               Nuestro Equipo
             </p>
             <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-4">
-              Doctores Especialistas
+              Doctores <em className="font-light italic">Especialistas</em>
             </h2>
             <p className="text-[#5a6b4a] max-w-2xl mx-auto text-lg">
               Profesionales certificados y comprometidos con tu salud, belleza y
@@ -752,11 +752,11 @@ export default function Home() {
             viewport={{ once: true, margin: '-100px' }}
             variants={fadeInUp}
           >
-            <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
               Servicio Personalizado
             </p>
             <h2 className="text-3xl md:text-5xl font-bold text-[#f0ece2] mb-4">
-              Agenda con tu Doctor
+              Agenda con <em className="font-light italic">tu Doctor</em>
             </h2>
             <p className="text-[#b1bdae] max-w-2xl mx-auto text-lg">
               Elige al especialista de tu preferencia y agenda directamente con el.
@@ -836,7 +836,7 @@ export default function Home() {
             variants={fadeInUp}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-[#f0ece2] mb-6">
-              Quierete Bonito
+              Quierete <em className="font-light italic">Bonito</em>
             </h2>
             <p className="text-xl text-[#b1bdae] mb-8 max-w-2xl mx-auto">
               Tu transformacion comienza con una decision. Agenda tu consulta y
@@ -865,11 +865,11 @@ export default function Home() {
               viewport={{ once: true, margin: '-100px' }}
               variants={fadeInUp}
             >
-              <p className="text-sm uppercase tracking-[0.2em] text-[#b1bdae] font-medium mb-3">
+              <p className="text-xs uppercase tracking-[0.3em] text-[#b1bdae] font-medium mb-4">
                 Contacto
               </p>
               <h2 className="text-3xl md:text-5xl font-bold text-[#2b5134] mb-8">
-                Visitanos
+                <em className="font-light italic">Visitanos</em>
               </h2>
 
               <div className="space-y-6">

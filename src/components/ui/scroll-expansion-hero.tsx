@@ -55,7 +55,7 @@ const ScrollExpandMedia = ({
         e.preventDefault();
       } else if (!mediaFullyExpanded) {
         e.preventDefault();
-        const scrollDelta = e.deltaY * 0.0009;
+        const scrollDelta = e.deltaY * 0.003;
         const newProgress = Math.min(
           Math.max(scrollProgress + scrollDelta, 0),
           1
@@ -86,7 +86,7 @@ const ScrollExpandMedia = ({
         e.preventDefault();
       } else if (!mediaFullyExpanded) {
         e.preventDefault();
-        const scrollFactor = deltaY < 0 ? 0.008 : 0.005;
+        const scrollFactor = deltaY < 0 ? 0.015 : 0.012;
         const scrollDelta = deltaY * scrollFactor;
         const newProgress = Math.min(
           Math.max(scrollProgress + scrollDelta, 0),
@@ -289,7 +289,7 @@ const ScrollExpandMedia = ({
                 <div className='flex flex-col items-center text-center relative z-10 mt-4 transition-none'>
                   {date && (
                     <p
-                      className='text-2xl text-blue-200'
+                      className='text-xl md:text-2xl text-white/80 italic tracking-wide'
                       style={{ transform: `translateX(-${textTranslateX}vw)` }}
                     >
                       {date}
@@ -297,7 +297,7 @@ const ScrollExpandMedia = ({
                   )}
                   {scrollToExpand && (
                     <p
-                      className='text-blue-200 font-medium text-center'
+                      className='text-white/60 font-light text-center text-sm tracking-[0.15em] uppercase'
                       style={{ transform: `translateX(${textTranslateX}vw)` }}
                     >
                       {scrollToExpand}
@@ -312,13 +312,13 @@ const ScrollExpandMedia = ({
                 }`}
               >
                 <motion.h2
-                  className='text-4xl md:text-5xl lg:text-6xl font-bold text-blue-200 transition-none'
+                  className='text-5xl md:text-6xl lg:text-8xl font-bold text-white/90 transition-none tracking-tight'
                   style={{ transform: `translateX(-${textTranslateX}vw)` }}
                 >
                   {firstWord}
                 </motion.h2>
                 <motion.h2
-                  className='text-4xl md:text-5xl lg:text-6xl font-bold text-center text-blue-200 transition-none'
+                  className='text-5xl md:text-6xl lg:text-8xl font-light italic text-center text-white/90 transition-none tracking-tight'
                   style={{ transform: `translateX(${textTranslateX}vw)` }}
                 >
                   {restOfTitle}
